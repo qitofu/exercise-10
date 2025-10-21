@@ -15,7 +15,7 @@ html {
 main {
  position: relative;
  margin: 25px;
- top: 120px;
+ top: 50px;
  width: 700px;
   
 }
@@ -63,12 +63,16 @@ h1 {
 }
 
 .cornerimage {
-  position: sticky;
-  float: right;
-  top: 50px;
-  width: 10px;
+  position: sticky;  
+  width: 90vw;
+  top: 200px;
 }
 
+.corneradjust {
+float: right;
+width: auto;
+height: 200px;
+  
 
 }
 .story {
