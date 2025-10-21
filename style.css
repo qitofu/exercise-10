@@ -1,105 +1,106 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-  font-family: Verdana, sans-serif;
-  background-color: #232946;
-  color: #f2f2f2;
-  font-size: 16px;
-  line-height: 1.2em;
+	font-family: Verdana, sans-serif;
+	background-color: #232946;
+	color: #f2f2f2;
+	font-size: 16px;
+	line-height: 1.2em;
 }
 
 main {
- position: relative;
- margin: 25px;
- top: 50px;
- width: 700px;
-  
+	position: relative;
+	margin: 25px;
+	top: 50px;
+	width: 700px;
+
 }
 
 header {
- width: 100vw;
- text-transform: uppercase;
- text-align: right;
- position: fixed;
- font-size: 12px
- letter-spacing: 1.2px;
- padding: 10px;
- z-index: 10;
- background-color: #e45858;
- top: 0px;
- left: 0px;
+	width: 100vw;
+	text-transform: uppercase;
+	text-align: right;
+	position: fixed;
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	padding: 10px;
+	z-index: 10;
+	background-color: #e45858;
+	top: 0px;
+	left: 0px;
 }
 
 nav a {
- padding: 0 15px; 
- display: inline;
- color: #232946;
- text-decoration: none;
+	padding: 0 15px;
+	display: inline;
+	color: #232946;
+	text-decoration: none;
 }
 
 .websitename {
-  font-weight: 800;
-  float: left;
+	font-weight: 800;
+	float: left;
 }
 
 h1 {
-  font-size: 36px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .6px;
-  margin-bottom: 20px;
+	font-size: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .6px;
+	margin-bottom: 20px;
 
 }
 
 .picture {
-  width: 100%; 
-  height: auto;
-  border-radius: 15px;
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
 
 }
 
 .cornerimage {
-  position: sticky;  
-  width: 60vw;
-  top: 350px;
+	position: sticky;
+	width: 60vw;
+	top: 350px;
 }
 
 .corneradjust {
-float: right;
-  
+	float: right;
+
 
 }
+
 .story {
-  margin-top: 30px; 
+	margin-top: 30px;
 
 }
 
 p {
-   text-align: justify;
-   line-height: 1.5em;
-   margin-bottom: 25px;  
+	text-align: justify;
+	line-height: 1.5em;
+	margin-bottom: 25px;
 
 }
-  em { 
-    font-style: italic; 
-    color: #e45858;
-  }
 
-  a {
-    color: #e45858;
-     &:hover { 
-   color: #d1d1e9;
-   text-decoration: none;
-    }
-       a[target="_blank"] {
-  color:  #e45858;   
-    } 
- 
+em {
+	font-style: italic;
+	color: #e45858;
+}
 
-  
-  
+a:hover {
+	color: #d1d1e9;
+	text-decoration: none
+}
 
+a[target="_blank"] {
+	color: #e45858;
+}
+
+a[target="_blank"]:hover {
+	color: #d1d1e9;
+	text-decoration: none;
+}
