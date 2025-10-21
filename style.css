@@ -48,7 +48,7 @@ nav a {
 
 h1 {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .6px;
   margin-bottom: 20px;
@@ -64,14 +64,12 @@ h1 {
 
 .cornerimage {
   position: sticky;  
-  width: 90vw;
-  top: 200px;
+  width: 60vw;
+  top: 350px;
 }
 
 .corneradjust {
 float: right;
-width: auto;
-height: 200px;
   
 
 }
