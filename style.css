@@ -87,28 +87,19 @@ p {
   em { 
     font-style: italic; 
     color: #e45858;
-
-  strong {
-    color: #83e458;
   }
 
   a {
-    color: #232946;
-  }
+    color: #e45858;
+     &:hover { 
+   color: #d1d1e9;
+   text-decoration: none;
+    }
+       a[target="_blank"] {
+  color:  #e45858;   
+    } 
+ 
 
-a:hover {
- color: #d1d1e9;
- text-decoration: none;
-  
-  }
-
-a[target="_blank"] {
-  color:  #e45858;
-  
- &:hover {
-color: #d1d1e9;
- text-decoration: none;
-  }
   
   
 
