@@ -14,7 +14,7 @@ html {
 
 main {
  position: relative;
- margin: 75px auto;
+ margin: 0 0 80px 20px;
  top: 100px;
   
 }
@@ -29,6 +29,8 @@ header {
  padding: 10px;
  z-index: 10;
  background-color: #e45858
+ top: 0px;
+ left: 0px;
 }
 
 nav a{
@@ -36,6 +38,7 @@ nav a{
  display: inline;
  color: #232946;
  text-decoration: none;
+}
 
 .websitename {
   font-weight: 800;
@@ -56,7 +59,9 @@ h1 {
   height: auto;
   border-radius: 15px;
 
-.scary {
+}
+
+.cornerimage {
   float: right;
   position: sticky;
   top: 50px;
@@ -71,6 +76,8 @@ h1 {
   em { 
     font-style: italic; 
     color: #e45858
+
+  }
 
   a {
     color: #232946
