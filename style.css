@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html {
+HTML {
   font-family: Verdana, sans-serif;
   background-color: #232946;
   color: #f2f2f2;
@@ -14,15 +14,61 @@ html {
 
 main {
  position: relative;
- margin: 30px auto;
+ margin: 75px auto;
+ top: 100px;
+  
 }
 
-.header {
-color: #232946
-font-size: 12px
-letter-spacing:
-text-transform: uppercase;
-text-align: right;
-width: 100vw;
+header {
+ width: 100vw;
+ text-transform: uppercase;
+ text-align: right;
+ position: fixed;
+ color: #232946
+ font-size: 12px
+ letter-spacing: 1.2;
+ padding: 10px;
+ z-index: 10;
+  
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.2;
+  margin-bottom: 10px;
 
 }
+
+.picture {
+  width: 100%; 
+  height: auto;
+  border-radius: 15px;
+
+.scary {
+  float: right;
+  position: sticky;
+  top: 50px;
+}
+
+.story {
+  margin-top: 30px; 
+  text-align: justify;
+  padding: 8px;
+}
+
+  em { 
+    font-style: italic; 
+    color: #e45858
+
+  a {
+    color: #232946
+  }
+
+  a: hover {
+ color: #d1d1e9
+ text-decoration: none;
+  
+  }
+
