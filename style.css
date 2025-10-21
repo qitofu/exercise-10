@@ -35,7 +35,7 @@ header {
 }
 
 nav a {
- padding: 5px 10px; 
+ padding: 5px; 
  display: inline;
  color: #232946;
  text-decoration: none;
@@ -44,6 +44,7 @@ nav a {
 .websitename {
   font-weight: 800;
   float: left;
+  padding: 5px; 
 }
 
 h1 {
@@ -63,17 +64,22 @@ h1 {
 }
 
 .cornerimage {
-  float: right;
   position: sticky;
   top: 50px;
+  float: right;
+  width: 100vw;
 }
 
 .story {
   margin-top: 30px; 
-  text-align: justify;
-  padding: 15px 0;
+
 }
 
+p {
+   text-align: justify;
+  padding: 15px;
+
+}
   em { 
     font-style: italic; 
     color: #e45858;
