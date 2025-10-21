@@ -102,3 +102,13 @@ a:hover {
   
   }
 
+a[target="_blank"] {
+  color:  #e45858;
+  
+ &:hover {
+color: #d1d1e9;
+ text-decoration: none;
+  }
+  
+  
+
