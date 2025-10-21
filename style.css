@@ -44,7 +44,6 @@ nav a {
 .websitename {
   font-weight: 800;
   float: left;
-  padding: 5px; 
 }
 
 h1 {
@@ -67,10 +66,9 @@ h1 {
   position: sticky;
   float: right;
   top: 50px;
+  width: 10px;
 }
 
-.corneradjust {
-  width: 30px;
 
 }
 .story {
