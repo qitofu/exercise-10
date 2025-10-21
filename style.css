@@ -67,9 +67,10 @@ h1 {
   position: sticky;
   float: right;
   top: 50px;
-  width: 20px;
 }
 
+.corneradjust {
+  width: 30px;
 
 }
 .story {
