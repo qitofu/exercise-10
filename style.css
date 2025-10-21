@@ -28,7 +28,7 @@ header {
  letter-spacing: 1.2;
  padding: 10px;
  z-index: 10;
- background-color: #e45858
+ background-color: #e45858;
  top: 0px;
  left: 0px;
 }
@@ -75,16 +75,16 @@ h1 {
 
   em { 
     font-style: italic; 
-    color: #e45858
+    color: #e45858;
 
   }
 
   a {
-    color: #232946
+    color: #232946;
   }
 
 a: hover {
- color: #d1d1e9
+ color: #d1d1e9;
  text-decoration: none;
   
   }
